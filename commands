@@ -1,5 +1,5 @@
 remove cdrom from sources
-apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev screen git ssh perl openssl curl expat gettext python asciidoc xmlto make autoconf virtualbox virtualbox-dbg virtualbox-dkms virtualbox-fuse virtualbox-guest-dkms virtualbox-guest-source virtualbox-guest-utils virtualbox-guest-x11
+apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev screen git ssh perl openssl curl expat gettext python asciidoc xmlto make autoconf virtualbox virtualbox-dbg virtualbox-dkms virtualbox-fuse virtualbox-guest-dkms virtualbox-guest-source virtualbox-guest-utils virtualbox-guest-x11 flashplugin-nonfree icedtea-7-plugin
 cd /opt
 git clone git://git.kernel.org/pub/scm/git/git.git
 cd /opt/git

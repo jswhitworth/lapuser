@@ -1,0 +1,15 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 7.4.0 _Wheezy_ - Official amd64 NETINST Binary-1 20140208-13:45]/ wheezy main
+
+#deb cdrom:[Debian GNU/Linux 7.4.0 _Wheezy_ - Official amd64 NETINST Binary-1 20140208-13:45]/ wheezy main
+
+deb http://debian.uchicago.edu/debian/ wheezy main contrib non-free
+deb-src http://debian.uchicago.edu/debian/ wheezy main contrib non-free
+
+deb http://security.debian.org/ wheezy/updates main
+deb-src http://security.debian.org/ wheezy/updates main
+
+# wheezy-updates, previously known as 'volatile'
+deb http://debian.uchicago.edu/debian/ wheezy-updates main
+deb-src http://debian.uchicago.edu/debian/ wheezy-updates main
