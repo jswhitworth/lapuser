@@ -16,3 +16,6 @@ su -
 cd /opt
 wget https://dl.bintray.com/mitchellh/vagrant/vagrant_1.5.4_x86_64.deb
 wget http://mirrors.xmission.com/eclipse/technology/epp/downloads/release/kepler/SR2/eclipse-standard-kepler-SR2-linux-gtk-x86_64.tar.gz
+tar xzvf eclipse-standard-kepler-SR2-linux-gtk-x86_64.tar.gz
+#add geppetto to eclipse
+http://download.cloudsmith.com/geppetto/updates
