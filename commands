@@ -1,0 +1,20 @@
+remove cdrom from sources
+apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev screen
+apt-get install git
+cd /opt
+git clone git://git.kernel.org/pub/scm/git/git.git
+apt-get install ssh perl openssl curl expat gettext python asciidoc xmlto make make-doc autoconf
+cd /opt/git
+make configure
+./configure --prefix=/usr
+make all doc
+exit #leaving super user
+git config --global user.name "jswhitworth"
+git config --global user.email "jswhitworth@gmail.com"
+git config --global color.ui auto
+cd ~/lapuser
+git init
+su -
+cd /opt
+wget https://dl.bintray.com/mitchellh/vagrant/vagrant_1.5.4_x86_64.deb
+
