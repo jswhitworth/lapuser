@@ -1,9 +1,7 @@
 remove cdrom from sources
-apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev screen
-apt-get install git
+apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev screen git ssh perl openssl curl expat gettext python asciidoc xmlto make autoconf
 cd /opt
 git clone git://git.kernel.org/pub/scm/git/git.git
-apt-get install ssh perl openssl curl expat gettext python asciidoc xmlto make make-doc autoconf
 cd /opt/git
 make configure
 ./configure --prefix=/usr
