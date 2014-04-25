@@ -5,7 +5,7 @@ git clone git://git.kernel.org/pub/scm/git/git.git
 cd /opt/git
 make configure
 ./configure --prefix=/usr
-make all doc
+make install all doc
 exit #leaving super user
 git config --global user.name "jswhitworth"
 git config --global user.email "jswhitworth@gmail.com"
